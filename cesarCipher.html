@@ -6,12 +6,18 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <span id="label">Key: </span>
-        <button onclick="prev()">-</button>
-        <span id="key">1</span>
-        <button onclick="next()">+</button><br/><br/>
-        <input type="text" id="input"/>
-        <button onclick="calculate()" id="big">Calculate</button>
+        <span id="label">CIFRA DE CESAR</span>
+        <br>
+        <br>
+        <!-- <button onclick="prev()">-</button> -->
+        <span id="key">13</span>
+        <!-- <button onclick="next()">+</button><br/><br/> -->
+        <input type="text" id="input" placeholder="Digite uma palavra"/>
+        <br>
+        <br>
+        <button onclick="calculate()" id="big">Criptografar</button>
+        <br>
+        <br>
         <span id="output"></span>
         <script>
             var values = new Array("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z");
